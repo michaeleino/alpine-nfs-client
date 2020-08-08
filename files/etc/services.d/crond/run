@@ -1,0 +1,4 @@
+#!/usr/bin/execlineb -P
+
+crond -f -l 8
+#-L /var/log/crond.log
